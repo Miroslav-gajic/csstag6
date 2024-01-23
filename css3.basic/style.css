@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    background-image: url(/images/background.jpg);
+    height: 50rem;
+    opacity: 20%;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 4rem;
+    
+}
+
+nav li {
+    text-align: center;
+    margin: auto;
+    background-color: white;
+}
+
+
+li a {
+    display: block;
+    color: violet;
+    padding: 1rem 2rem;
+    text-align: center;
+
+
+}
+
+
+.home:hover{
+    background: pink;
+    transition: all 2s ease;
+}
+
+.news:hover{
+    background: pink;
+    transition: all 2s ease;
+}
+.gallery:hover{
+    background: pink;
+    transition: all 2s ease;
+}
+.contact:hover{
+    background: pink;
+    transition: all 2s ease;
+}
+.about:hover{
+    background: pink;
+    transition: all 2s ease;
+}
