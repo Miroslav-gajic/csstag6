@@ -6,16 +6,19 @@
     gap: 20px;
     border: 1px solid black;
     grid-template-areas: 
-    "six six two two"
+    "one one  two two"
     "three four two two"
-    "five five one one";
+    "five five six six";
 }
 
 .grid-container div {
     border: solid black 1px;
 }
 
-
+img{
+    height: 100%;
+    width: 100%;
+}
 
 .grid1 {
     grid-area: one;
