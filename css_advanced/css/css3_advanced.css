@@ -1,0 +1,42 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    aspect-ratio: 2/1;
+    gap: 20px;
+    border: 1px solid black;
+    grid-template-areas: 
+    "six six two two"
+    "three four two two"
+    "five five one one";
+}
+
+.grid-container div {
+    border: solid black 1px;
+}
+
+
+
+.grid1 {
+    grid-area: one;
+}
+
+.grid2 {
+    grid-area: two;
+}
+
+.grid3 {
+    grid-area: three;
+}
+
+.grid4 {
+    grid-area: four;
+}
+
+.grid5 {
+    grid-area: five;
+}
+
+.grid6 {
+    grid-area: six;
+}
